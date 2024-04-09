@@ -21,7 +21,7 @@ function confirmation() {
   const data = new URLSearchParams(formData).toString();
 
   // Send POST request
-  fetch("https://resgister-backend.onrender.com/fee", {
+  fetch("https://Assignment2-backend.onrender.com/fee", {
     method: "POST",
     body: data,
     headers: {
